@@ -35,9 +35,9 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 49,
+    "uniqCompNum": 50,
     "versionPublish": "4.8.1",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/logomonika-128x128.png",
     "noImageResize": "",
     "google-analytics": "",
     "screenshot": "screenshot.png"
@@ -3372,6 +3372,25 @@
           "_anchor": "testimonials5-19"
         },
         {
+          "_afterNavbarItem": false,
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "sound": "https://soundcloud.com/user-876658341/sets/sunday-music-and-hot-coffee",
+            "autoplay": true,
+            "fullWidth": false,
+            "bgColor": "#232323"
+          },
+          "iframeSRC": "https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F196284142&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+          "soundURL": "url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F196284142",
+          "alias": "soundcloud",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "soundcloud1",
+          "_anchor": "soundcloud1-1d"
+        },
+        {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
@@ -3718,7 +3737,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/img-4657-2000x1500.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -3752,7 +3771,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-6333-2000x1500.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": false,
